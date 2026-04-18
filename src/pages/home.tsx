@@ -46,9 +46,7 @@ import {
 } from "@/components/ui/dialog"
 import { toast } from "sonner"
 import { cn } from "@/lib/utils"
-import { useQuery, useMutation, useAction, useConvexAuth } from "convex/react"
-import { api } from "@convex/api"
-import { useAuthActions } from "@convex-dev/auth/react"
+
 import { AuthForm } from "@/components/auth-form"
 import { getGuestId } from "@/lib/guest"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
